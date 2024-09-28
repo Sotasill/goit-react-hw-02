@@ -4,7 +4,7 @@ import css from "./Modal.module.css";
 const Modal = ({ onCloseModal, onReset }) => {
   const [isSecondModalOpen, setIsSecondModalOpen] = useState(false);
 
-  // Закрытие модального окна по нажатию клавиши "Escape"
+ 
   useEffect(() => {
     const onKeyDown = (event) => {
       if (event.code === "Escape") {
